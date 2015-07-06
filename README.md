@@ -15,6 +15,7 @@ The response-time is in milliseconds, while the timestamp is in [Unix Epoch Time
 An error is reflected to an http-response-like error-code, under the `http_response` key/field as below:
 
 - 408: DNS resolution error
+- 409: Protocol not supported
 - 410: Request timeout
 
 ## TODOs
